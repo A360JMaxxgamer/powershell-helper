@@ -10,3 +10,8 @@ function Get-DockerContainer() {
 function Edit-Profile() {
     code $profile
 }
+
+# Starts VsCode with special color profile to prevent weird colors on hdr monitors
+function CodeHdr() {
+    code --force-color-profile=srgb
+}
